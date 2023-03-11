@@ -69,4 +69,9 @@
                         /* Footer section is creatin below */
   
                         
-  
+.footer-section {background-color: black;width:100%;height:65vh;color:white;display:flex;justify-content: center;align-items: center;}
+.about-agence {width:30%;}
+.media-icons i {margin-right:20px; font-size:25px;}
+.list-container {list-style: none;margin-top:20px;}
+.list-container li {line-height: 23px;font-size: 15px;}
+.some-links {padding: 0 25px;}
