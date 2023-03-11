@@ -16,7 +16,7 @@
     font-size:40px;font-size:bold;
  }
 
- .primary {color:rgba(0, 255, 38, 0.992);font-size: 50px;}
+ .primary {color:rgba(0, 255, 38, 0.992);font-size:35px;}
 
  .description {color:rgb(153, 255, 0);font-size:30px;margin-top:20px;}
 
@@ -47,4 +47,26 @@
 .service-logo{width:50%;}
 .down-logo{width:30%;}
 .service-down {display: flex;gap:10px;margin-top: 10px;}
-        
+
+                     /* The code Appoinst Section are below */
+
+ .appoinment-section {display:flex;width:60%;background-color: red;color: white;padding:20px;border-radius: 15px;justify-content: center;align-items: center;margin: auto;position: relative; top:-30px;}
+ .call-icon {width:60px;}
+ .contacting-div {display: flex;gap:10px;margin-right: 10px;}
+ .appoinment-btn {padding: 0 20px; height: 40px;border: none;border-radius:15px;}
+ 
+                    /* Here is About Blog And News */
+
+  .content-article {text-align:center;width: 60%;text-align: center;margin: auto;}
+
+                     /* The card of Airticle Section */
+
+.container {margin-top: 30px;display: flex;justify-content: center;align-items: center;gap:15px;width:90%;margin:40px auto;}
+.container div {padding:15px;box-shadow: 2px 2px 7px black;}
+ .container div img {width:100%;}
+ .every-div {width:30%;}                    
+  
+                        /* Footer section is creatin below */
+  
+                        
+  
