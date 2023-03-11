@@ -24,17 +24,27 @@
  .btn-discover {background-color: red;color:white;margin-right: 10px;}
 
                   /* Service container Section */
+
 .service-container {
-    background-image:linear-gradient(#167f16cf,rgb(234, 101, 101)),url('../asset/image/footer-bg.png');color:white;
-    width:100%;height:100vh;
+    background-image:linear-gradient(#167f16cf,rgb(234, 101, 101)),url('../asset/image/footer-bg.png');color:white;justify-content: center;align-items: center;
+    width:100%;height:100vh;display:flex;gap:20px;
    
 }
-.service-description {width:50%;font-size:25px;margin-top: 20px;}
-.service-details {padding:40px;}
+.service-left-container {width:50%;}
+.service-description {width:80%;font-size:25px;margin-top: 20px;}
+.service-details {padding:0px;}
 .service-list-btn {background-color:rgb(11, 1, 28);color:white;border-radius: 20px;}
 
 .author-identity {color:black;border-right:3px solid black;padding-right: 70px;height: 60px;}
 .author-identity img {border-radius:50%;width:100px;}
 .author-identity {display:flex;align-items: center;gap: 20px;}
 .author-details {display:flex;align-items: center;gap: 14px;margin-top:25px;}
-.more-details-btn {}
+
+                    /* Servie Second part has started from here */
+
+.service-up {display:flex;gap:10px;}
+.service {width:120px;height:100px;padding:30px;box-shadow: 4px 5px 8px gray;text-align: center;border-radius:13px;background-color: whitesmoke;}
+.service-logo{width:50%;}
+.down-logo{width:30%;}
+.service-down {display: flex;gap:10px;margin-top: 10px;}
+        
